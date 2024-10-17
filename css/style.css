@@ -9839,3 +9839,48 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+
+
+
+    .img-hover {
+      overflow: hidden; /* Hide overflow to create the zoom effect */
+    }
+    
+    .img-hover img {
+      transition: transform 0.3s ease; /* Smooth transition for the zoom effect */
+    }
+    
+    .img-hover:hover img {
+      transform: scale(1.1); /* Scale the image up on hover */
+    }
+    
+    body {
+      background-color: #f8f9fa;
+  }
+
+  .accordion-item {
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.accordion-button {
+    background-color: #007bff;
+    color: white;
+    border-radius: 8px;
+}
+
+.accordion-button:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #0056b3;
+    color: white;
+}
+
+.accordion-body {
+    background-color: white;
+    border-radius: 8px;
+}
